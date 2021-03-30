@@ -7,6 +7,7 @@
     "test": "cypress run",
     "testChrome": "cypress run --browser chrome",
     "testFirefox": "cypress run --browser firefox",
+    "testAPI": "cypress run --headless --browser chrome",
     "testReport": "cypress run --browser chrome && node ./cypress/reportGenerator.js",
     "cypress:open": "cypress open"
   },

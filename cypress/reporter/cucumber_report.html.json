@@ -1,22 +1,21 @@
 [
   {
-    "description": "  I want to open a search engine",
     "keyword": "Feature",
-    "name": "Google Main Page",
+    "name": "API Rest testing for pets endpoint",
     "line": 1,
-    "id": "google-main-page",
+    "id": "api-rest-testing-for-pets-endpoint",
     "tags": [],
-    "uri": "Google.feature",
+    "uri": "Pets.feature",
     "elements": [
       {
-        "id": "google-main-page;opening-a-search-engine-page",
+        "id": "api-rest-testing-for-pets-endpoint;verify-all-pet-with-status-available",
         "keyword": "Scenario",
-        "line": 6,
-        "name": "Opening a search engine page",
+        "line": 3,
+        "name": "Verify All pet with status Available",
         "tags": [
           {
             "name": "@focus",
-            "line": 5
+            "line": 2
           }
         ],
         "type": "scenario",
@@ -24,21 +23,76 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 7,
-            "name": "I open Google page",
+            "line": 4,
+            "name": "I get the data from pets endpoint",
             "result": {
               "status": "passed",
-              "duration": 1676000000
+              "duration": 1076000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "The status is Available",
+            "result": {
+              "status": "passed",
+              "duration": 7000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 8,
-            "name": "I see \"Google\" in the title",
+            "line": 6,
+            "name": "I should see the data correctly",
             "result": {
               "status": "passed",
-              "duration": 45000000
+              "duration": 5000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "description": "  I want to open Prodigious main page",
+    "keyword": "Feature",
+    "name": "Prodigous main page",
+    "line": 1,
+    "id": "prodigous-main-page",
+    "tags": [],
+    "uri": "home.feature",
+    "elements": [
+      {
+        "id": "prodigous-main-page;opening-home-page",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Opening home page",
+        "tags": [
+          {
+            "name": "@focus",
+            "line": 4
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I open Prodigious Homepage",
+            "result": {
+              "status": "undefined",
+              "duration": 268000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I see \"Careers\" in the title",
+            "result": {
+              "status": "skipped"
             }
           }
         ]
