@@ -1,0 +1,52 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Testing blazedemo page",
+    "line": 1,
+    "id": "testing-blazedemo-page",
+    "tags": [],
+    "uri": "Demo.feature",
+    "elements": [
+      {
+        "id": "testing-blazedemo-page;verify-add-items-to-a-cart",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "Verify add items to a cart",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "I user navigate to Laptop",
+            "result": {
+              "status": "passed",
+              "duration": 2029000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 4,
+            "name": "I add the following Sony vaio i5",
+            "result": {
+              "status": "passed",
+              "duration": 2246000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "I add the following Dell i7 8gb",
+            "result": {
+              "status": "passed",
+              "duration": 2768000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
