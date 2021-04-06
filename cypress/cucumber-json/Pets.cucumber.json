@@ -22,7 +22,7 @@
             "name": "I validate the pet endpoint",
             "result": {
               "status": "passed",
-              "duration": 153000000
+              "duration": 835000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "I should see all pets with status Available",
             "result": {
               "status": "passed",
-              "duration": 169000000
+              "duration": 378000000
             }
           }
         ]
@@ -52,7 +52,7 @@
             "name": "I post new pet as Available",
             "result": {
               "status": "passed",
-              "duration": 154000000
+              "duration": 162000000
             }
           },
           {
@@ -62,7 +62,7 @@
             "name": "I should see new pet created",
             "result": {
               "status": "passed",
-              "duration": 103000000
+              "duration": 104000000
             }
           }
         ]
@@ -82,7 +82,7 @@
             "name": "I update a pet from Available to Sold",
             "result": {
               "status": "passed",
-              "duration": 128000000
+              "duration": 159000000
             }
           },
           {
@@ -92,7 +92,7 @@
             "name": "I should see pet updated",
             "result": {
               "status": "passed",
-              "duration": 117000000
+              "duration": 102000000
             }
           }
         ]
@@ -112,7 +112,7 @@
             "name": "I delete a pet already created",
             "result": {
               "status": "passed",
-              "duration": 116000000
+              "duration": 140000000
             }
           }
         ]

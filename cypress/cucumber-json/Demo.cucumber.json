@@ -22,7 +22,7 @@
             "name": "I user navigate to Laptop",
             "result": {
               "status": "passed",
-              "duration": 2029000000
+              "duration": 4463000000
             }
           },
           {
@@ -31,8 +31,9 @@
             "line": 4,
             "name": "I add the following Sony vaio i5",
             "result": {
-              "status": "passed",
-              "duration": 2246000000
+              "status": "failed",
+              "duration": 5635000000,
+              "error_message": "CypressError: Timed out retrying after 4050ms: `cy.click()` failed because this element is detached from the DOM.\n\n`<a href=\"prod.html?idp_=8\" class=\"hrefch\">Sony va...</a>`\n\nCypress requires elements be attached in the DOM to interact with them.\n\nThe previous command that ran was:\n\n  > `cy.get()`\n\nThis DOM element likely became detached somewhere between the previous and current command.\n\nCommon situations why this happens:\n  - Your JS framework re-rendered asynchronously\n  - Your app code reacted to an event firing and removed the element\n\nYou typically need to re-query for the element or add 'guards' which delay Cypress from running new commands.\n\nhttps://on.cypress.io/element-has-detached-from-dom\n    at $Cy.ensureAttached (https://www.demoblaze.com/__cypress/runner/cypress_runner.js:162522:24)\n    at runAllChecks (https://www.demoblaze.com/__cypress/runner/cypress_runner.js:151352:12)\n    at retryActionability (https://www.demoblaze.com/__cypress/runner/cypress_runner.js:151427:16)\n    at tryCatcher (https://www.demoblaze.com/__cypress/runner/cypress_runner.js:10765:23)\n    at Function.Promise.attempt.Promise.try (https://www.demoblaze.com/__cypress/runner/cypress_runner.js:8039:29)\n    at tryFn (https://www.demoblaze.com/__cypress/runner/cypress_runner.js:167007:21)\n    at whenStable (https://www.demoblaze.com/__cypress/runner/cypress_runner.js:167045:12)\n    at https://www.demoblaze.com/__cypress/runner/cypress_runner.js:166540:16\n    at tryCatcher (https://www.demoblaze.com/__cypress/runner/cypress_runner.js:10765:23)\n    at Promise._settlePromiseFromHandler (https://www.demoblaze.com/__cypress/runner/cypress_runner.js:8700:31)\n    at Promise._settlePromise (https://www.demoblaze.com/__cypress/runner/cypress_runner.js:8757:18)\n    at Promise._settlePromise0 (https://www.demoblaze.com/__cypress/runner/cypress_runner.js:8802:10)\n    at Promise._settlePromises (https://www.demoblaze.com/__cypress/runner/cypress_runner.js:8882:18)\n    at Promise._fulfill (https://www.demoblaze.com/__cypress/runner/cypress_runner.js:8826:18)\n    at https://www.demoblaze.com/__cypress/runner/cypress_runner.js:10440:46\nFrom Your Spec Code:\n    at Context.eval (https://www.demoblaze.com/__cypress/tests?p=cypress/integration/Demo.feature:47:62)\n    at Context.resolveAndRunStepDefinition (https://www.demoblaze.com/__cypress/tests?p=cypress/integration/Demo.feature:10445:9)\n    at Context.eval (https://www.demoblaze.com/__cypress/tests?p=cypress/integration/Demo.feature:9786:35)\nFrom Your Spec Code:\n    at Context.eval (https://www.demoblaze.com/__cypress/tests?p=cypress/integration/Demo.feature:47:62)\n    at Context.resolveAndRunStepDefinition (https://www.demoblaze.com/__cypress/tests?p=cypress/integration/Demo.feature:10445:9)\n    at Context.eval (https://www.demoblaze.com/__cypress/tests?p=cypress/integration/Demo.feature:9786:35)"
             }
           },
           {
@@ -41,8 +42,7 @@
             "line": 5,
             "name": "I add the following Dell i7 8gb",
             "result": {
-              "status": "passed",
-              "duration": 2768000000
+              "status": "skipped"
             }
           }
         ]
